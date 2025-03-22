@@ -188,6 +188,11 @@ footer {
     color: #666;
 }
 
+img{
+    width: 200px;
+    height: 200px;
+}
+
 /* Media Queries */
 @media (max-width: 768px) {
     .navbar-container {
@@ -203,3 +208,4 @@ footer {
         padding: 20px;
     }
 }
+
