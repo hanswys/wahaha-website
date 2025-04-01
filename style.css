@@ -44,6 +44,10 @@ a:hover {
 .navbar-menu {
     display: flex;
     gap: 40px;
+    background-color: red;
+    padding: 5px;
+    border-radius: 4px;
+
 }
 
 .navbar-menu a {
@@ -51,15 +55,18 @@ a:hover {
     font-weight: bold;
     padding: 8px 16px;
     border-radius: 4px;
+    color: white;
     transition: all 0.3s ease;
 }
 
 .navbar-menu a:hover {
-    background-color: rgba(255, 0, 0, 0.1);
+    background-color: white;
+    color:red
 }
 
+
 .red {
-    background-color: red;
+    background-color:red ;
     color: white;
 }
 
@@ -70,6 +77,11 @@ a:hover {
     align-items: center;
     padding: 40px;
     scroll-margin-top: 140px;
+}
+
+.store-hours-container{
+    background-color: #eee;
+    
 }
 
 .section-content {
